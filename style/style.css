@@ -1,0 +1,39 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.phone{
+    display: inline-block;
+    background: url('../images/phone-512.png') no-repeat left top;
+    background-size: 25px 23px;
+    padding: 0 0 0 30px;
+    height:30px;
+}
+
+
+.email{
+    display: inline-block;
+    background: url('../images/email.jpg') no-repeat left top;
+    background-size: 30px 18px;
+    padding: 0 0 0 35px;
+    height:30px;
+}
+
+.title-name {
+    color:#FFFFFF;
+}
+
+.title-name:hover{
+    color: silver;
+    background-color: transparent;
+}
+
+h3.panel-title{
+    font-size: 24px;
+}
+
+.jumbotron p{
+    font-size: 16px;
+}
